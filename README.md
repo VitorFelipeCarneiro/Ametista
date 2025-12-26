@@ -29,4 +29,5 @@ Dessa forma, criei o Ametista como uma tentativa de reproduzir, no ambiente macO
 
 ## imagens
 
+# Chame o clipboard de qualquer lugar da tela ou de qualquer aplicativo usando o atalho Control + Espaço.
 ![Abra em qualquer lugar da sua tela com atalho Control + espaço](https://github.com/VitorFelipeCarneiro/Ametista/blob/ad04800f03f9923fc4ab0de537282f151f77061e/images/Captura%20de%20Tela%202025-12-26%20a%CC%80s%2013.04.41.png)
