@@ -29,3 +29,4 @@ Dessa forma, criei o Ametista como uma tentativa de reproduzir, no ambiente macO
 
 ## imagens e funcionalidades
 
+(Captura de Tela 2025-12-26 às 13.04.41.png)
