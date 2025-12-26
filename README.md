@@ -26,3 +26,6 @@ Este aplicativo foi desenvolvido como projeto de estudo e experimentação, Alé
 Embora o macOS disponha de mecanismos próprios para área de transferência, a proposta do Ametista parte da minha percepção de que essas soluções não se adequam plenamente ao meu fluxo de trabalho, especialmente no que diz respeito à visualização e reutilização do histórico de conteúdos copiados.
 
 Dessa forma, criei o Ametista como uma tentativa de reproduzir, no ambiente macOS, uma experiência de uso mais alinhada àquela com a qual já estava habituado no sistema operacional da Microsoft. O objetivo não é estabelecer comparações qualitativas entre plataformas, mas disponibilizar uma alternativa para outros usuários que eventualmente compartilhem da mesma necessidade.
+
+## imagens e funcionalidades
+
