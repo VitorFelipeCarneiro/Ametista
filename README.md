@@ -9,16 +9,16 @@ O objetivo é facilitar o acesso ao histórico de conteúdos copiados no dia a d
 - Aplicativo leve e simples para uso contínuo
 
 ## Como instalar
-	1.	Baixe o arquivo do aplicativo neste repositório.
-	2.	Extraia o arquivo ZIP para obter o Ametista.app.
-	3.	Arraste o arquivo Ametista.app para a pasta Aplicativos do macOS.
-	4.	Abra o aplicativo pela pasta Aplicativos ou pelo Launchpad.
-	5.	Na primeira execução, caso o macOS bloqueie o app, clique com o botão direito sobre ele, selecione Abrir e confirme.
+1.	Baixe o arquivo do aplicativo neste repositório.
+2.	Extraia o arquivo ZIP para obter o Ametista.app.
+3.	Arraste o arquivo Ametista.app para a pasta Aplicativos do macOS.
+4.	Abra o aplicativo pela pasta Aplicativos ou pelo Launchpad.
+5.	Na primeira execução, caso o macOS bloqueie o app, clique com o botão direito sobre ele, selecione Abrir e confirme.
 
 ## Observações importantes
-	•	O aplicativo não possui instalador automático.
-	•	A distribuição é feita apenas via arquivo ZIP.
-	•	O uso é destinado exclusivamente ao macOS.
+- O aplicativo não possui instalador automático.
+- A distribuição é feita apenas via arquivo ZIP.
+- O uso é destinado exclusivamente ao macOS.
 
 ## Projeto
 Este aplicativo foi desenvolvido como projeto de estudo e experimentação, Além disso, o desenvolvimento do Ametista também surgiu a partir de uma necessidade pessoal. Como usuário que transita com frequência entre os sistemas Windows e macOS, senti falta de uma solução de gerenciamento de área de transferência no macOS que oferecesse uma experiência semelhante à funcionalidade nativa disponível no Windows, acessada pelo atalho Windows + V.
