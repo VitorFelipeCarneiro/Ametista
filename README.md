@@ -32,7 +32,7 @@ Dessa forma, criei o Ametista como uma tentativa de reproduzir, no ambiente macO
 ![Abra em qualquer lugar da sua tela com atalho Control + espaço](https://github.com/VitorFelipeCarneiro/Ametista/blob/5d01791d6fca00aebd474def9e97e997b4c1706f/images/IMG%2003.png)
 
 ## Por padrão, o atalho para acessar o clipboard é Control + Espaço. No entanto, o usuário pode personalizar essa combinação de teclas nas configurações do aplicativo, assim como definir a quantidade de itens que o histórico deve armazenar.
-![Por padrão, o atalho para acessar o clipboard é Control + Espaço. No entanto, o usuário pode personalizar essa combinação de teclas nas configurações do aplicativo, assim como definir a quantidade de itens que o histórico deve armazenar.](https://github.com/VitorFelipeCarneiro/Ametista/blob/b54399924d76817855f533db40daef7445597e52/images/Captura%20de%20Tela%202025-12-26%20a%CC%80s%2016.45.03.png)
+![Por padrão, o atalho para acessar o clipboard é Control + Espaço. No entanto, o usuário pode personalizar essa combinação de teclas nas configurações do aplicativo, assim como definir a quantidade de itens que o histórico deve armazenar.](https://github.com/VitorFelipeCarneiro/Ametista/blob/0e10fedd0cbe88d07ece3581e48b654b04b8fa0c/images/IMG%2002.png)
 
 ## Copie e cole qualquer tipo de conteúdo, textos, imagens, links ou códigos. O Ametista oferece suporte completo a todos esses formatos.
 ![Copie e cole qualquer tipo de conteúdo, textos, imagens, links ou códigos. O Ametista oferece suporte completo a todos esses formatos.](https://github.com/VitorFelipeCarneiro/Ametista/blob/7267c26d84e3d06a36f8a31ed90b7a7d8885616a/images/Captura%20de%20Tela%202025-12-26%20a%CC%80s%2013.06.34.png)
