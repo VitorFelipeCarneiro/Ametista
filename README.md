@@ -1,38 +1,72 @@
-# Ametista
-Ametista é um aplicativo para macOS focado em gerenciamento de clipboard.
-O objetivo é facilitar o acesso ao histórico de conteúdos copiados no dia a dia.
+# 💎 Ametista
 
-# Funcionalidades
-- Armazenamento de textos copiados, links e imagens
-- Acesso rápido ao histórico do clipboard
-- Aplicativo leve e simples para uso contínuo
+> **O Gerenciador de Área de Transferência Simples e Poderoso para macOS.**
 
-# Como instalar
-1.	Baixe o arquivo do aplicativo neste repositório.
-2.	Extraia o arquivo ZIP para obter o Ametista.app.
-3.	Arraste o arquivo Ametista.app para a pasta Aplicativos do macOS.
-4.	Abra o aplicativo pela pasta Aplicativos ou pelo Launchpad.
-5.	Na primeira execução, caso o macOS bloqueie o app, clique com o botão direito sobre ele, selecione Abrir e confirme.
+![Status](https://img.shields.io/badge/status-active-success.svg)
+![Platform](https://img.shields.io/badge/platform-macOS-lightgrey.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# Observações importantes
-- O aplicativo não possui instalador automático.
-- A distribuição é feita apenas via arquivo ZIP.
-- O uso é destinado exclusivamente ao macOS.
+O **Ametista** é um aplicativo nativo para macOS que turbina sua produtividade, mantendo um histórico do que você copia. Nunca mais perca aquele link ou texto importante.
 
-# Projeto
-Este aplicativo foi desenvolvido como projeto de estudo e experimentação, Além disso, o desenvolvimento do Ametista também surgiu a partir de uma necessidade pessoal. Como usuário que transita com frequência entre os sistemas Windows e macOS, senti falta de uma solução de gerenciamento de área de transferência no macOS que oferecesse uma experiência semelhante à funcionalidade nativa disponível no Windows, acessada pelo atalho Windows + V.
+---
 
-Embora o macOS disponha de mecanismos próprios para área de transferência, a proposta do Ametista parte da minha percepção de que essas soluções não se adequam plenamente ao meu fluxo de trabalho, especialmente no que diz respeito à visualização e reutilização do histórico de conteúdos copiados.
+## ✨ Funcionalidades
 
-Dessa forma, criei o Ametista como uma tentativa de reproduzir, no ambiente macOS, uma experiência de uso mais alinhada àquela com a qual já estava habituado no sistema operacional da Microsoft. O objetivo não é estabelecer comparações qualitativas entre plataformas, mas disponibilizar uma alternativa para outros usuários que eventualmente compartilhem da mesma necessidade.
+*   **📋 Histórico Ilimitado**: Guarda textos, imagens e arquivos copiados.
+*   **📌 Fixar Itens**: Mantenha itens importantes sempre no topo da lista.
+*   **⌨️ Atalhos Globais**: Acesse seu histórico de qualquer lugar (Padrão: `Control` + `Espaço`).
+*   **🖼️ Suporte a Imagens**: Visualize prévias de imagens copiadas diretamente no painel.
+*   **🚀 Leve e Rápido**: Construído com Swift e SwiftUI para máxima performance.
 
-# imagens
+---
 
-## Chame o clipboard de qualquer lugar da tela ou de qualquer aplicativo usando o atalho Control + Espaço.
-![Abra em qualquer lugar da sua tela com atalho Control + espaço](https://github.com/VitorFelipeCarneiro/Ametista/blob/5d01791d6fca00aebd474def9e97e997b4c1706f/images/IMG%2003.png)
+## 📸 Demonstração
 
-## Por padrão, o atalho para acessar o clipboard é Control + Espaço. No entanto, o usuário pode personalizar essa combinação de teclas nas configurações do aplicativo, assim como definir a quantidade de itens que o histórico deve armazenar.
-![Por padrão, o atalho para acessar o clipboard é Control + Espaço. No entanto, o usuário pode personalizar essa combinação de teclas nas configurações do aplicativo, assim como definir a quantidade de itens que o histórico deve armazenar.](https://github.com/VitorFelipeCarneiro/Ametista/blob/0e10fedd0cbe88d07ece3581e48b654b04b8fa0c/images/IMG%2002.png)
+### Visão Geral
+*Copie e cole qualquer tipo de conteúdo: textos, imagens, links ou códigos.*
+![Visão Geral](images/IMG%2001.png)
 
-## Copie e cole qualquer tipo de conteúdo, textos, imagens, links ou códigos. O Ametista oferece suporte completo a todos esses formatos.
-![Copie e cole qualquer tipo de conteúdo, textos, imagens, links ou códigos. O Ametista oferece suporte completo a todos esses formatos.](https://github.com/VitorFelipeCarneiro/Ametista/blob/2255d9f6d74ab32bcb8894994558199c1fdfdc9d/images/IMG%2001.png)
+### Atalhos e Configurações
+*Acesse de qualquer lugar com `Control + Espaço`. Personalize atalhos e limites nas configurações.*
+![Atalhos](images/IMG%2002.png)
+![Popup](images/IMG%2003.png)
+
+---
+
+## 📥 Como Baixar
+
+Baixe a última versão pronta para uso:
+
+[![Baixar Ametista](https://img.shields.io/badge/⬇️_Baixar_Agora-Ametista-purple?style=for-the-badge&logo=apple)](https://github.com/VitorFelipeCarneiro/Ametista/releases)
+
+> *Nota: Vá até a aba "Releases" e baixe o arquivo `Ametista.dmg`.*
+
+---
+
+## 🛠️ Instalação
+
+1.  Baixe o arquivo `Ametista.dmg`.
+2.  Abra o arquivo.
+3.  Arraste o **Ametista.app** para a pasta de **Aplicativos**.
+4.  Abra o app e conceda as permissões de Acessibilidade (necessário para colar e monitorar o clipboard).
+
+---
+
+## 📖 Sobre o Projeto
+
+Este aplicativo foi desenvolvido como projeto de estudo e experimentação. Além disso, o desenvolvimento do Ametista também surgiu a partir de uma necessidade pessoal. Como usuário que transita com frequência entre os sistemas Windows e macOS, senti falta de uma solução de gerenciamento de área de transferência no macOS que oferecesse uma experiência semelhante à funcionalidade nativa disponível no Windows (Win+V).
+
+Embora o macOS disponha de mecanismos próprios, a proposta do Ametista é oferecer uma experiência familiar, rápida e eficiente para visualização e reutilização do histórico.
+
+---
+
+## 💻 Tecnologias
+
+*   **Swift**
+*   **SwiftUI**
+*   **AppKit**
+*   **Combine**
+
+---
+
+Desenvolvido por **Vitor Felipe Carneiro**.

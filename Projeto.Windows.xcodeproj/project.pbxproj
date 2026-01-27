@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E465CDF72EFAFB9600AD55A4 /* Projeto_WindowsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E465CDF62EFAFB9600AD55A4 /* Projeto_WindowsApp.swift */; };
+		E465CDF92EFAFB9600AD55A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E465CDF82EFAFB9600AD55A4 /* ContentView.swift */; };
+		E465CE022EFB011E00AD55A4 /* ClipboardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E465CE012EFB011E00AD55A4 /* ClipboardItem.swift */; };
+		E465CE042EFB021400AD55A4 /* ClipboardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E465CE032EFB021400AD55A4 /* ClipboardStore.swift */; };
+		E465CE062EFB03A900AD55A4 /* ClipboardWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E465CE052EFB03A900AD55A4 /* ClipboardWatcher.swift */; };
+		E465CE082EFB078400AD55A4 /* FloatingPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E465CE072EFB078400AD55A4 /* FloatingPanelController.swift */; };
+		E465CE0A2EFB07BA00AD55A4 /* ClipboardPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E465CE092EFB07BA00AD55A4 /* ClipboardPopupView.swift */; };
+		E465CE0C2EFB1A9300AD55A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E465CE0B2EFB1A9300AD55A4 /* AppDelegate.swift */; };
+		E465CE0E2EFB25DC00AD55A4 /* GlobalHotKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E465CE0D2EFB25DC00AD55A4 /* GlobalHotKeyManager.swift */; };
+		E465CE132EFB826B00AD55A4 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E465CE122EFB826B00AD55A4 /* ServiceManagement.framework */; };
+		E465CE152EFB82FD00AD55A4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E465CE142EFB82FD00AD55A4 /* SettingsView.swift */; };
+		E465CE172EFB832E00AD55A4 /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E465CE162EFB832E00AD55A4 /* SettingsWindowController.swift */; };
+		E4A7D1762EFDEEBA0044CD72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A7D1752EFDEEBA0044CD72 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E465CDF32EFAFB9600AD55A4 /* Projeto.Windows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projeto.Windows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E465CDF62EFAFB9600AD55A4 /* Projeto_WindowsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_WindowsApp.swift; sourceTree = "<group>"; };
+		E465CDF82EFAFB9600AD55A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E465CE012EFB011E00AD55A4 /* ClipboardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardItem.swift; sourceTree = "<group>"; };
+		E465CE032EFB021400AD55A4 /* ClipboardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardStore.swift; sourceTree = "<group>"; };
+		E465CE052EFB03A900AD55A4 /* ClipboardWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardWatcher.swift; sourceTree = "<group>"; };
+		E465CE072EFB078400AD55A4 /* FloatingPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanelController.swift; sourceTree = "<group>"; };
+		E465CE092EFB07BA00AD55A4 /* ClipboardPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardPopupView.swift; sourceTree = "<group>"; };
+		E465CE0B2EFB1A9300AD55A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E465CE0D2EFB25DC00AD55A4 /* GlobalHotKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHotKeyManager.swift; sourceTree = "<group>"; };
+		E465CE122EFB826B00AD55A4 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		E465CE142EFB82FD00AD55A4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E465CE162EFB832E00AD55A4 /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
+		E4A7D1752EFDEEBA0044CD72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E465CDF52EFAFB9600AD55A4 /* Projeto.Windows */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Projeto.Windows;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E465CDF02EFAFB9600AD55A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E465CE132EFB826B00AD55A4 /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E465CDEA2EFAFB9600AD55A4 = {
+			isa = PBXGroup;
+			children = (
+				E4A7D1752EFDEEBA0044CD72 /* Assets.xcassets */,
+				E465CE162EFB832E00AD55A4 /* SettingsWindowController.swift */,
+				E465CE142EFB82FD00AD55A4 /* SettingsView.swift */,
+				E465CE0D2EFB25DC00AD55A4 /* GlobalHotKeyManager.swift */,
+				E465CE0B2EFB1A9300AD55A4 /* AppDelegate.swift */,
+				E465CE072EFB078400AD55A4 /* FloatingPanelController.swift */,
+				E465CE052EFB03A900AD55A4 /* ClipboardWatcher.swift */,
+				E465CE032EFB021400AD55A4 /* ClipboardStore.swift */,
+				E465CE012EFB011E00AD55A4 /* ClipboardItem.swift */,
+				E465CE092EFB07BA00AD55A4 /* ClipboardPopupView.swift */,
+				E465CDF82EFAFB9600AD55A4 /* ContentView.swift */,
+				E465CDF62EFAFB9600AD55A4 /* Projeto_WindowsApp.swift */,
+				E465CDF52EFAFB9600AD55A4 /* Projeto.Windows */,
+				E465CE112EFB826B00AD55A4 /* Frameworks */,
+				E465CDF42EFAFB9600AD55A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E465CDF42EFAFB9600AD55A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E465CDF32EFAFB9600AD55A4 /* Projeto.Windows.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E465CE112EFB826B00AD55A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E465CE122EFB826B00AD55A4 /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E465CDF22EFAFB9600AD55A4 /* Projeto.Windows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E465CDFE2EFAFB9700AD55A4 /* Build configuration list for PBXNativeTarget "Projeto.Windows" */;
+			buildPhases = (
+				E465CDEF2EFAFB9600AD55A4 /* Sources */,
+				E465CDF02EFAFB9600AD55A4 /* Frameworks */,
+				E465CDF12EFAFB9600AD55A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E465CDF52EFAFB9600AD55A4 /* Projeto.Windows */,
+			);
+			name = Projeto.Windows;
+			packageProductDependencies = (
+			);
+			productName = Projeto.Windows;
+			productReference = E465CDF32EFAFB9600AD55A4 /* Projeto.Windows.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E465CDEB2EFAFB9600AD55A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					E465CDF22EFAFB9600AD55A4 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = E465CDEE2EFAFB9600AD55A4 /* Build configuration list for PBXProject "Projeto.Windows" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+			);
+			mainGroup = E465CDEA2EFAFB9600AD55A4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E465CDF42EFAFB9600AD55A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E465CDF22EFAFB9600AD55A4 /* Projeto.Windows */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E465CDF12EFAFB9600AD55A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A7D1762EFDEEBA0044CD72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E465CDEF2EFAFB9600AD55A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E465CE0C2EFB1A9300AD55A4 /* AppDelegate.swift in Sources */,
+				E465CE042EFB021400AD55A4 /* ClipboardStore.swift in Sources */,
+				E465CDF92EFAFB9600AD55A4 /* ContentView.swift in Sources */,
+				E465CE062EFB03A900AD55A4 /* ClipboardWatcher.swift in Sources */,
+				E465CDF72EFAFB9600AD55A4 /* Projeto_WindowsApp.swift in Sources */,
+				E465CE172EFB832E00AD55A4 /* SettingsWindowController.swift in Sources */,
+				E465CE152EFB82FD00AD55A4 /* SettingsView.swift in Sources */,
+				E465CE0A2EFB07BA00AD55A4 /* ClipboardPopupView.swift in Sources */,
+				E465CE082EFB078400AD55A4 /* FloatingPanelController.swift in Sources */,
+				E465CE022EFB011E00AD55A4 /* ClipboardItem.swift in Sources */,
+				E465CE0E2EFB25DC00AD55A4 /* GlobalHotKeyManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E465CDFC2EFAFB9700AD55A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E465CDFD2EFAFB9700AD55A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E465CDFF2EFAFB9700AD55A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT5N5UDXQH;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ametista;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vitor.Projeto-Windows";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E465CE002EFAFB9700AD55A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT5N5UDXQH;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ametista;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vitor.Projeto-Windows";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E465CDEE2EFAFB9600AD55A4 /* Build configuration list for PBXProject "Projeto.Windows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E465CDFC2EFAFB9700AD55A4 /* Debug */,
+				E465CDFD2EFAFB9700AD55A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E465CDFE2EFAFB9700AD55A4 /* Build configuration list for PBXNativeTarget "Projeto.Windows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E465CDFF2EFAFB9700AD55A4 /* Debug */,
+				E465CE002EFAFB9700AD55A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E465CDEB2EFAFB9600AD55A4 /* Project object */;
+}
